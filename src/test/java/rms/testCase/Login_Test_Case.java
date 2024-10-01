@@ -26,6 +26,7 @@ public class Login_Test_Case  {
         r.sendPassword("Admin@123");
          r.click_login_button();
          Thread.sleep(8000);
+         //check git 
         String actual_page_Title = driver.getTitle();
          String expected_Title = "NJ GROUP";
         Assert.assertEquals(driver.getTitle(),"NJ GROUP");
